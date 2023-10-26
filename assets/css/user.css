@@ -1,0 +1,29 @@
+.row-content {
+    padding: 10px;
+    height: 100%;
+}
+.row-content h4{
+    color: rgb(26, 26, 26);
+}
+
+.container .center-title {
+    font-size: 36px;
+    font-weight: 600;
+    color: #012970;
+}
+.list-act, .list-history{
+    /* border: 1px solid gray; */
+    padding: 10px;
+}
+
+.card-header{
+    margin-bottom: 30px;
+    border: none;
+    box-shadow: 0px 0 30px rgba(1, 41, 112, 0.1);
+    border: 1px solid rgba(0, 0, 0, 0.175);
+}
+/* .card-header {
+    width: 100%;
+    background: url(../img/hero-bg.png) top center no-repeat;
+    background-size: cover;
+} */

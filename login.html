@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FantasiaArts</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../FlexStart/assets/css/login_regis.css">
+
+    <!-- Boxicons CSS -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+
+<body>
+
+    <a href="landing.html" class="back"><i class='bx bx-arrow-back'></i></a>
+
+    <section class="container forms">
+
+        <!-- Sign In Form -->
+        <div class="form login">
+            <div class="form-content">
+                <header>Login</header>
+
+                <form action="authenticate.php" method="POST">
+                    <div class="field input-field">
+                        <input type="email" name="email" placeholder="Email" class="input" required>
+                    </div>
+
+                    <div class="field input-field">
+                        <input type="password" name="password" placeholder="Password" class="password" required>
+                        <i class='bx bx-hide eye-icon'></i>
+                    </div>
+
+                    <div class="form-link">
+                        <a href="#" class="forgot-pass">Forgot password?</a>
+                    </div>
+
+                    <div class="field button-field">
+                        <input class="sub" type="submit" name="login" value="Login">
+                    </div>
+                </form>
+
+                <div class="form-link">
+                    <span>Don't have an account? <a href="register.html">Signup</a></span>
+                </div>
+
+                <div class="line"></div>
+
+                <div class="media-options">
+                    <a href="#" class="field facebook">
+                        <i class='bx bxl-facebook facebook-icon'></i>
+                        <span>Login with Facebook</span>
+                    </a>
+                </div>
+
+                <div class="media-options">
+                    <a href="#" class="field google">
+                        <img src="assets/img/google.png" width="35px" height="35px" alt="google" style="position: absolute; left: 10px;">
+                        <span>Login with Google</span>
+                    </a>
+                </div>
+
+
+            </div>
+        </div>
+
+
+    </section>
+
+    <!-- JavaScript -->
+    <script src="../FlexStart/assets/js/signup.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> JC Media - login or signup</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../FlexStart/assets/css/login_regis.css">
+
+    <!-- Boxicons CSS -->
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+
+<body>
+    <a href="landing.html" class="back"><i class='bx bx-arrow-back'></i></a>
+
+    <section class="modal_login">
+    <div class="container forms">
+        <!-- Signup Form -->
+
+        <div class="form signup">
+            <div class="form-content">
+                <header>Signup</header>
+
+                <form action="register.php" method="POST">
+                    <div class="field input-field">
+                        <input type="text" name="firstname" placeholder="First Name" class="input" required>
+                    </div>
+
+                    <div class="field input-field">
+                        <input type="text" name="lastname" placeholder="Last Name" class="input" required>
+                    </div>
+
+                    <div class="field input-field">
+                        <input type="text" name="address" placeholder="Address" class="input" required>
+                    </div>
+
+                    <div class="field-gender" style="margin-top: 10px; padding: 0 13px;">
+                        <label>Gender:</label><br>
+                        <div style="display: flex; justify-content: space-around; align-items: center; ">
+                            <label style="cursor: pointer;">
+                                <input type="radio" name="gender" value="Male">
+                                <span>Male</span>
+                            </label>
+                            <label style="cursor: pointer;">
+                                <input type="radio" name="gender" value="Female">
+                                <span>Female</span>
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="field input-field">
+                        <input type="email" name="email" placeholder="Email" class="input" required>
+                    </div>
+
+                    <div class="field input-field">
+                        <input type="password" name="password" placeholder="Create password" class="password" required>
+                        <i class='bx bx-hide eye-icon'></i>
+                    </div>
+
+                    <div class="field input-field">
+                        <input type="password" name="confirm-password" placeholder="Confirm password" class="password"
+                            required>
+                        <i class='bx bx-hide eye-icon'></i>
+                    </div>
+
+                    <div class="field button-field">
+                        <input class="sub" type="submit" id="registerBtn" name="submit" value="Register">
+                    </div>
+                </form>
+
+                <div class="form-link">
+                    <span>Already have an account? <a href="login.html">Login</a></span>
+                </div>
+
+                <div class="line"></div>
+
+                <div class="media-options">
+                    <a href="#" class="field facebook">
+                        <i class='bx bxl-facebook facebook-icon'></i>
+                        <span>Login with Facebook</span>
+                    </a>
+                </div>
+
+                <div class="media-options">
+                    <a href="#" class="field google">
+                        <img src="assets/img/google.png" width="35px" height="35px" alt="google" style="position: absolute; left: 10px;">
+                        <span>Login with Google</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+    <!-- JavaScript -->
+    <script src="../FlexStart/assets/js/signup.js"></script>
+</body>
+
+</html>
